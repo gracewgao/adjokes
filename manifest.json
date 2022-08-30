@@ -1,0 +1,12 @@
+{
+  "content_scripts": [
+    {
+      "js": ["adore.js"],
+      "matches": ["https://www.google.com/search?q=*"]
+    }
+  ],
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
+  "manifest_version": 3,
+  "name": "adore",
+  "version": "1.1.0"
+}
